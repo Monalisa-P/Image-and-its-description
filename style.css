@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    border-style: dashed;
+    padding: 10px;
+}
+.ph{
+    height: 200px;
+    width: 300px;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 30px;
+    align-items: center;
+}
+.ph:hover{
+    height: 250px;
+    width: 350px;
+}
+.ah{
+    
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 0cap;
+    float: left;
+    font-size:medium;
+}
+.m{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 8vw;
+    height: 5vh;
+    background-color: wheat;
+}
+.m:hover{
+    color: whitesmoke;
+    background-color: rgb(75, 51, 51);
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
